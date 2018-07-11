@@ -1,8 +1,9 @@
 /*!
- * Project_Name: Themezy Car Workshop
  * Author: Themezy
+ * Modified: Mark
  * Email: info@themezy.com
  * URL: http://themezy.com
+ * Icon made by Freepik from www.flaticon.com
  */
 article,
 aside,
@@ -248,16 +249,16 @@ form input:not([type="submit"]), form select, form textarea {
   outline: none;
   transition: .3s ease; }
   form input:not([type="submit"]):hover, form input:not([type="submit"]):focus, form select:hover, form select:focus, form textarea:hover, form textarea:focus {
-    border-color: #f63f3f; }
+    border-color: #1E83C3; }
 form input[type="submit"] {
   padding: 10px 20px;
-  background: #f63f3f;
+  background: #1E83C3;
   color: white;
   font-family: "Titillium Web", "Open Sans", sans-serif;
   border: none;
   outline: none; }
   form input[type="submit"]:hover, form input[type="submit"]:active, form input[type="submit"]:focus {
-    background-color: #f87070; }
+    background-color: #20B2FF; }
 
 /*
  * Reusable Components Style
@@ -266,18 +267,18 @@ form input[type="submit"] {
 .button {
   display: inline-block;
   padding: 10px 30px;
-  background-color: #f63f3f;
+  background-color: #1E83C3;
   color: white;
   font-family: "Titillium Web", "Open Sans", sans-serif;
   transition: .3s ease; }
   .button.invert {
     background-color: white;
-    color: #f63f3f;
+    color: #1E83C3;
     font-weight: 700; }
     .button.invert:hover {
       background-color: rgba(255, 255, 255, 0.8); }
   .button:hover {
-    background-color: #f86666; }
+    background-color: #20B2FF; }
 
 /* fullwidth-block */
 .fullwidth-block {
@@ -329,7 +330,7 @@ form input[type="submit"] {
     font-size: 72px;
     font-size: 4.5em;
     margin-bottom: 0;
-    color: #f63f3f;
+    color: #1E83C3;
     line-height: 70px; }
   .counter .counter-label {
     font-size: 18px;
@@ -365,13 +366,13 @@ form input[type="submit"] {
       height: 35px;
       border-radius: 50%;
       display: inline-block;
-      background-color: #f63f3f;
+      background-color: #1E83C3;
       color: white;
       text-align: center;
       line-height: 2.3;
       transition: .3s ease; }
       .team .team-social a:hover {
-        background-color: #f87070; }
+        background-color: #20B2FF; }
   .team.image-left {
     padding-left: 370px;
     position: relative;
@@ -402,7 +403,7 @@ form input[type="submit"] {
         max-width: 100%; }
     .team.image-left .team-name {
       text-transform: uppercase;
-      color: #f63f3f;
+      color: #1E83C3;
       font-size: 24px;
       font-size: 1.5em; }
     .team.image-left .team-desc {
@@ -436,7 +437,7 @@ form input[type="submit"] {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background-color: #f63f3f;
+    background-color: #1E83C3;
     text-align: center;
     line-height: 5.8; }
     .feature .feature-icon img {
@@ -444,7 +445,7 @@ form input[type="submit"] {
   .feature .feature-title {
     font-size: 18px;
     font-size: 1.125em;
-    color: #f63f3f; }
+    color: #1E83C3; }
   .feature-grid .feature {
     background: #1b1b1b;
     margin-bottom: 0;
@@ -489,7 +490,7 @@ form input[type="submit"] {
       text-align: center;
       padding-top: 10px; }
       .news li .entry-date .date {
-        color: #f63f3f;
+        color: #1E83C3;
         font-size: 48px;
         font-size: 3em;
         font-weight: 700;
@@ -501,7 +502,7 @@ form input[type="submit"] {
     .news li .entry-summary {
       padding: 20px 30px;
       color: white;
-      background-color: #d13939;
+      background-color: #175b86;
       min-height: 100px;
       font-size: 18px;
       font-size: 1.125em;
@@ -525,7 +526,7 @@ form input[type="submit"] {
       color: white;
       font-family: "Titillium Web", "Open Sans", sans-serif;
       background-color: #1b1b1b;
-      border-bottom: 3px solid #f63f3f; }
+      border-bottom: 3px solid #1E83C3; }
 
 /* Filterable nav */
 .filterable-nav {
@@ -546,8 +547,8 @@ form input[type="submit"] {
     border-bottom: 1px solid transparent;
     transition: .3s ease; }
     .filterable-nav a.current, .filterable-nav a:hover {
-      border-bottom: 2px solid #f63f3f;
-      color: #f63f3f; }
+      border-bottom: 2px solid #1E83C3;
+      color: #1E83C3; }
 
 /* Filterable items */
 .filterable-items .filterable-item {
@@ -614,7 +615,7 @@ address {
   background: #1b1b1b;
   color: white;
   font-family: "Titillium Web", "Open Sans", sans-serif;
-  border-bottom: 3px solid #f63f3f;
+  border-bottom: 3px solid #1E83C3;
   padding: 10px 20px;
   font-size: 14px;
   font-size: 0.875em; }
@@ -1770,7 +1771,7 @@ address {
       left: 0;
       width: 100%;
       height: 5px;
-      background-color: #f63f3f; }
+      background-color: #1E83C3; }
 
 #branding {
   float: left; }
@@ -1783,7 +1784,7 @@ address {
     font-size: 18px;
     font-size: 1.125em;
     margin: 0;
-    color: #f63f3f; }
+    color: #1E83C3; }
     #branding .site-title span {
       color: white; }
 
@@ -1820,7 +1821,7 @@ address {
       border-left: 4px solid transparent;
       transition: .3s ease; }
     .mobile-navigation .menu .current-menu-item a, .mobile-navigation .menu .menu-item:hover a {
-      border-left: 4px solid #f63f3f; }
+      border-left: 4px solid #1E83C3; }
 
 .main-navigation {
   float: right; }
@@ -1848,7 +1849,7 @@ address {
       font-weight: 700;
       transition: .3s ease; }
     .main-navigation .menu-item.current-menu-item a, .main-navigation .menu-item:hover a {
-      border-bottom: 3px solid #f63f3f; }
+      border-bottom: 3px solid #1E83C3; }
 
 /*
  * Sidebar Styles
@@ -1910,7 +1911,7 @@ address {
     height: 70px;
     transition: .3s ease; }
     .subscribe-form form input:hover, .subscribe-form form input:focus, .subscribe-form form input:hover + button, .subscribe-form form input:focus + button {
-      border-color: #f63f3f; }
+      border-color: #1E83C3; }
   .subscribe-form form button {
     height: 70px;
     padding: 15px 20px 10px;
@@ -1919,7 +1920,7 @@ address {
     margin-left: -10px;
     transition: .3s ease; }
     .subscribe-form form button:hover, .subscribe-form form button:active {
-      background-color: #f63f3f; }
+      background-color: #1E83C3; }
 
 .social-links {
   margin-bottom: 30px; }
@@ -1929,7 +1930,7 @@ address {
     padding: 10px;
     transition: .3s ease; }
     .social-links a:hover {
-      color: #f63f3f; }
+      color: #1E83C3; }
 
 .copy {
   font-size: 15px;
@@ -1993,4 +1994,4 @@ address {
         cursor: pointer;
         transition: .3 ease; }
         .hero-slider .flex-control-paging li a.flex-active {
-          background: #f63f3f; }
+          background: #1E83C3; }

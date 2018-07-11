@@ -81,11 +81,11 @@
 		$('.map').gmap3({
 			map: {
 				options: {
-					maxZoom: 14 
+					maxZoom: 17
 				}  
 			},
 			marker:{
-				address: "40 Sibley St, Detroit",
+				address: "49-03 5th St, Long Island City, NY 11101",
 				options: {
 					icon: new google.maps.MarkerImage(
 						"images/map-marker.png",
